@@ -8,12 +8,11 @@ body {
 .hello-tag {
     position: fixed;
     bottom: 5rem; /* Adjust this value to control the distance from the bottom */
-    right: 1rem; /* Adjust this value to control the distance from the right */
+    right: 3rem !important; /* Adjust this value to control the distance from the right */
     background-color: greenyellow; /* Background color */
     color: #fff; /* Text color */
     padding: 1rem 1rem; /* Adjust padding as needed */
     border-radius: 2rem; /* Rounded corners */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Box shadow for a raised effect */
     z-index: 999; /* Ensure it's on top of other elements */
     animation: popInOut 1s infinite;
 }
